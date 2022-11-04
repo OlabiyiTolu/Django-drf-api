@@ -7,4 +7,5 @@ urlpatterns = [
     path('Item/<int:pk>/', ItemDetail.as_view()),
     path('Location/', LocationList.as_view()),
     path('Location/<int:pk>', LocationDetail.as_view())
+    
     ]
