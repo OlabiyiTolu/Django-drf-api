@@ -1,18 +1,30 @@
-Django DRF Blog Api
-Table of Contents
-Overview
-Stack & Tools
-Project Structure
-How to use
-Contact
-Overview
-This is a back-end blog-api project made with Django DRF. To build this project I have used various tools, including drf-yasg, django toolbar, and django rest auth
+<!-- Please update value in the {}  -->
 
-Stack & Tools
-Django
-Django Rest Framework
+<h1 align="center">Django DRF Blog Api</h1>
 
-Project Structure
+
+<!-- TABLE OF CONTENTS -->
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Stack & Tools](#stack)
+- [Project Structure](#project-structure)
+- [How to use](#how-to-use)
+- [Contact](#contact)
+
+## Overview
+
+This is a back-end api project made with Django DRF. 
+
+<h2 id="stack">Stack & Tools</h2>
+
+- Django
+- Django Rest Framework
+
+## Project Structure
+
+```bash
 .──── django-drf-blog-api (repo)
 │
 .
@@ -39,12 +51,15 @@ Project Structure
 ├── manage.py
 ├── requirements.txt
 └── db.sqlite3
+```
 
-How To Use
-To clone and run this application, you'll need Git
+## How To Use 
 
+To clone and run this application, you'll need [Git](https://git-scm.com)
+
+```bash
 # Clone this repository
-$ git clone https://github.com/MSKose/django-drf-blog-api
+$ git clone https://github.com/OlabiyiTolu/Django-drf-api
 
 # Install dependencies
     $ python -m venv env
@@ -54,6 +69,8 @@ $ git clone https://github.com/MSKose/django-drf-blog-api
 
 # Run the app
     $ python manage.py runserver
-Contact
-Linkedin
-GitHub
+```
+
+## Contact
+
+- [GitHub](https://github.com/olabiyitolu)
